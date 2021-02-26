@@ -6,7 +6,7 @@ Serve JSON
 Start Basic Client App
 `serve static`
 
-## fastify GET service mock
+## fastify GET/POST service mock
 
 Serve JSON w/ fastify
 
@@ -17,5 +17,3 @@ npm run dev
 
 Start Basic Client App
 `serve static`
-
-## fastify POST service mock
