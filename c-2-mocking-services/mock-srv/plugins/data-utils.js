@@ -4,6 +4,7 @@ const fp = require("fastify-plugin");
 const catToPrefix = {
   electronics: "A",
   confectionery: "B",
+  dogs: "C",
 };
 
 const calculateID = (idPrefix, data) => {
