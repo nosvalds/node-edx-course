@@ -38,7 +38,7 @@ function* currentOrders(category) {
 const calculateID = (idPrefix, data) => {
   const sorted = [...new Set(data.map(({ id }) => id))];
   const next = Number(sorted.pop().slice(1)) + 1;
-  return ` ${idPrefix}${next} `;
+  return `${idPrefix}${next}`;
 };
 
 module.exports = fp(async function (fastify, opts) {
