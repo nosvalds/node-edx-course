@@ -15,8 +15,8 @@ const catToPrefix = {
 };
 
 async function* realtimeOrdersSimulator() {
-  const ids = Object.keys(orders);
   while (true) {
+    const ids = Object.keys(orders);
     const delta = Math.floor(Math.random() * 7) + 1;
     const id = ids[Math.floor(Math.random() * ids.length)];
     orders[id].total += delta;
